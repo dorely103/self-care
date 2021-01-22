@@ -1,0 +1,165 @@
+body{
+	background-color: #b1d4e0;
+	color:#fff;
+	text-align: center;
+	line-height: 300%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+form{
+	color: #534e52;
+	text-align: center;
+}
+
+
+h1{
+	font-family: 'Source Code Pro', monospace;
+}
+
+input[type=text]{
+	border: none;
+  border-bottom: 2px solid #b1d4e0;
+}
+
+.box {
+	transition: box-shadow 2s;
+  max-width: 400px;
+  margin: 100px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+	padding: 10px;
+	text-align:left;
+
+}
+
+.box:hover{
+	box-shadow: 10px 10px 200px rgba(33,33,33,.2);
+}
+
+.cards{
+	position:absolute;
+	left: 10px;
+}
+
+.card-title{
+	color: #534e52;
+}
+
+.card-body{
+	background-color: floralwhite;
+}
+
+.card-text{
+	color: #534e52;
+}
+
+.card1{
+	margin-right: 20px;
+	float: left;
+	margin-left: 250px;
+}
+
+.card2{
+	float: left;
+	margin-right: 20px;
+}
+
+.carousel{
+	position: relative;
+	margin: 30px;
+}
+
+.carousel img{
+	width: 400px;
+	height: 480px;
+}
+
+.container{
+	position: relative;
+	top: 50px;
+}
+
+.container-fluid button{
+		position: relative;
+		left: 160px;
+}
+
+.compose{
+	color: #898b8a;
+}
+
+.compose p{
+	line-height: 150%;
+}
+
+.mug{
+	position: absolute;
+	top: 120px;
+	left: 130px;
+	width: 130px;
+	height: 130px;
+}
+
+.mug:hover{
+	transform: rotate(30deg);
+}
+
+.footer-container{
+		margin-top: 100px;
+	  background-color: #b1d4e0;
+}
+
+.footer-img {
+	  padding: 0 15px;
+	}
+
+
+.journal-container{
+	padding: 10px 300px 100px 300px;
+	margin: 50px;
+}
+
+
+.journal-container button{
+	position:absolute;
+	bottom: 200px;
+	left: 810px;
+}
+
+.mood{
+	width: 60px;
+	height: 60px;
+	margin-bottom: 10px;
+
+}
+
+.music{
+		position: absolute;
+		top: 120px;
+		right: 130px;
+		width: 130px;
+		height: 130px;
+	}
+
+	.music:hover{
+		transform: rotate(30deg);
+	}
+
+.navbar{
+	font-size: 1.5rem;
+	color: #898b8a;
+	font-weight: bolder;
+}
+
+
+.navbar-brand>img {
+  height: 100px;
+  width: 100px;
+}
+
+.page-container{
+	position: relative;
+  min-height: 100vh;
+}

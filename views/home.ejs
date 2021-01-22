@@ -1,0 +1,54 @@
+<%- include('partials/header.ejs') %>
+
+
+  <div class="container-fluid">
+    <div class="container">
+      <h1>Feeling Up or Down? Let's see if we can help</h1>
+    </div>
+    <img class="mug" src="https://media-public.canva.com/dw2Gs/MAD6n2dw2Gs/1/s.svg" alt="mug">
+    <img class="music" src="https://media-public.canva.com/7Jki8/MAD4YI7Jki8/1/s.svg" alt="music">
+    <form class="box" action="/results" method="post">
+
+      <label for="">What's your name?</label><br>
+      <input type="text" name="userName" required autocomplete="off">
+      <label for="">How are you feeling today?</label><br>
+
+      <input type="radio" name="mood-select" value="sad">
+      <img class="mood" src="https://www.flaticon.com/svg/static/icons/svg/35/35527.svg" alt="">
+      <input type="radio" name="mood-select" value="angry">
+      <img class="mood" src="https://www.flaticon.com/svg/static/icons/svg/42/42842.svg" alt="">
+      <input type="radio" name="mood-select" value="loved">
+      <img class="mood" src="https://www.flaticon.com/svg/static/icons/svg/3852/3852224.svg" alt="">
+      <input type="radio" name="mood-select" value="happy">
+      <img class="mood" src="https://www.flaticon.com/svg/static/icons/svg/1293/1293004.svg" alt="">
+
+
+  <br>
+      <label for="">What type of music do you like?</label><br>
+      <select class="" name="">
+        <option value="">rock and roll</option>
+        <option value="">country</option>
+        <option value="">mainstream</option>
+        <option value="">rap</option>
+        <option value="">any music will do</option>
+      </select><br>
+      <label for="">How about food?</label><br>
+      <select class="" name="">
+        <option value="">sweet</option>
+        <option value="">savory</option>
+        <option value="">hit me up with that spice!</option>
+        <option value="">I love all kinds of food!</option>
+      </select><br>
+      <label for="">What genre do you enjoy for movies and books?</label><br>
+      <select class="" name="">
+        <option value="">action</option>
+        <option value="">comedy</option>
+        <option value="">mystery</option>
+        <option value="">romance</option>
+        <option value="">horror</option>
+      </select><br>
+      <button class="btn btn-lg btn-outline-info" type="submit" name="button">Go</button>
+    </form>
+  </div>
+
+  <%- include('partials/footer.ejs') %>

@@ -1,0 +1,10 @@
+<%- include('partials/header.ejs') %>
+
+  <%posts.forEach(function(post){%>
+    <div class="box compose">
+      <h2><b><%=post.title%></b></h2>
+      <p><%=post.postBody%></p>
+    </div>
+  <%});%>
+
+<%- include('partials/footer.ejs') %>
